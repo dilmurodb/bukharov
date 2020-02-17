@@ -1,0 +1,96 @@
+.intro-container {
+  display: flex;
+  justify-content: start;
+  margin-left: 20px;
+}
+
+.intro-text {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 40px;
+  margin: 0px 0px;
+}
+
+.parallax {
+  background-image: url("./me.jpg");
+  background-size: 67%;
+  min-height: 530px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  height: 100px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.header-text {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-container-left {
+  display: flex;
+  justify-content: start;
+  width: 50%;
+}
+
+.header-name-text {
+  font-family: "Rock Salt", cursive;
+  font-size: 20px;
+}
+
+.header-container-right {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.header-item {
+  height: 30px;
+  width: 60px;
+  color: white;
+}
+.header-item-name {
+  height: 30px;
+  width: 60px;
+  color: white;
+  margin-left: 100px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 1500px;
+}
+
+.main-item {
+  height: 50px;
+  width: 100px;
+  background-color: magenta;
+  margin: 10px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+  background-color: lightblue;
+}
+
+.footer-item {
+  align-self: center;
+  margin: 5px;
+}
