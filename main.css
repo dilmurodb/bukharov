@@ -83,7 +83,7 @@ a {
   height: 1500px;
 }
 
-.main-item {
+.main-item-about {
   height: 700px;
   width: 900px;
   background-color: lightskyblue;
@@ -91,6 +91,38 @@ a {
   margin: 50px;
   font-family: "Courgette", cursive;
   font-size: 25px;
+}
+.main-item-portfolio {
+  height: 300px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  background-color: lightskyblue;
+  align-self: center;
+  margin: 50px;
+}
+
+.trivia-icon {
+  margin: 20px;
+  align-self: center;
+}
+
+.tic-tac-toe-icon {
+  margin: 20px;
+  align-self: center;
+}
+
+.todo-list-icon {
+  margin: 20px;
+  align-self: center;
+}
+
+.main-item-resume {
+  height: 300px;
+  width: 900px;
+  background-color: lightskyblue;
+  align-self: center;
+  margin: 50px;
 }
 
 .footer-container {
