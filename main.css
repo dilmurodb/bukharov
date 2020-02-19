@@ -102,18 +102,18 @@ a {
   margin: 50px;
 }
 
-.trivia-icon {
-  margin: 20px;
+.trivia {
+  margin: 50px;
   align-self: center;
 }
 
-.tic-tac-toe-icon {
-  margin: 20px;
+.tic-tac-toe {
+  margin: 50px;
   align-self: center;
 }
 
-.todo-list-icon {
-  margin: 20px;
+.todo-list {
+  margin: 50px;
   align-self: center;
 }
 
