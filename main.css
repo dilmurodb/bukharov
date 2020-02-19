@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .intro-container {
   display: flex;
   justify-content: start;
@@ -70,16 +78,19 @@
 
 .main-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   height: 1500px;
 }
 
 .main-item {
-  height: 50px;
-  width: 100px;
-  background-color: magenta;
-  margin: 10px;
+  height: 700px;
+  width: 900px;
+  background-color: lightskyblue;
+  align-self: center;
+  margin: 50px;
+  font-family: "Courgette", cursive;
+  font-size: 25px;
 }
 
 .footer-container {
@@ -87,7 +98,7 @@
   flex-direction: row;
   justify-content: center;
   height: 100px;
-  background-color: lightblue;
+  background-color: black;
 }
 
 .footer-item {
