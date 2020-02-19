@@ -80,15 +80,15 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 1500px;
+  height: 2000px;
 }
 
 .main-item-about {
-  height: 700px;
+  height: 620px;
   width: 900px;
   background-color: lightskyblue;
   align-self: center;
-  margin: 50px;
+  margin: 30px;
   font-family: "Courgette", cursive;
   font-size: 25px;
 }
@@ -99,7 +99,7 @@ a {
   justify-content: center;
   background-color: lightskyblue;
   align-self: center;
-  margin: 50px;
+  margin: 30px;
 }
 
 .trivia {
@@ -118,11 +118,11 @@ a {
 }
 
 .main-item-resume {
-  height: 300px;
+  height: 700px;
   width: 900px;
   background-color: lightskyblue;
   align-self: center;
-  margin: 50px;
+  margin: 30px;
 }
 
 .footer-container {
