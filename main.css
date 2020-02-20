@@ -88,7 +88,16 @@ a {
   width: 900px;
   background-color: lightskyblue;
   align-self: center;
-  margin: 20px;
+  margin: 10px;
+  padding: 5px;
+}
+.about-me-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+.about-me-content {
   font-family: "Dancing Script", cursive;
   font-size: 25px;
 }
@@ -99,7 +108,8 @@ a {
   justify-content: center;
   background-color: lightskyblue;
   align-self: center;
-  margin: 20px;
+  margin: 10px;
+  padding: 5px;
 }
 
 .trivia {
@@ -131,10 +141,13 @@ a {
   width: 900px;
   background-color: lightskyblue;
   align-self: center;
-  margin: 20px;
+  margin: 10px;
+  padding: 5px;
 }
 .resume-title {
   font-family: "Special Elite", cursive;
+  display: flex;
+  justify-content: center;
 }
 .skills-title {
   font-family: "Special Elite", cursive;
