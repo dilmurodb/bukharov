@@ -80,16 +80,16 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 2000px;
+  height: 2200px;
 }
 
 .main-item-about {
-  height: 620px;
+  height: 520px;
   width: 900px;
   background-color: lightskyblue;
   align-self: center;
-  margin: 30px;
-  font-family: "Courgette", cursive;
+  margin: 20px;
+  font-family: "Dancing Script", cursive;
   font-size: 25px;
 }
 .main-item-portfolio {
@@ -99,30 +99,70 @@ a {
   justify-content: center;
   background-color: lightskyblue;
   align-self: center;
-  margin: 30px;
+  margin: 20px;
 }
 
 .trivia {
   margin: 50px;
   align-self: center;
 }
+.trivia-title {
+  font-family: "Permanent Marker", cursive;
+}
 
 .tic-tac-toe {
   margin: 50px;
   align-self: center;
+}
+.tic-tac-toe-title {
+  font-family: "Permanent Marker", cursive;
 }
 
 .todo-list {
   margin: 50px;
   align-self: center;
 }
+.todo-list-title {
+  font-family: "Permanent Marker", cursive;
+}
 
 .main-item-resume {
-  height: 1000px;
+  height: 1100px;
   width: 900px;
   background-color: lightskyblue;
   align-self: center;
-  margin: 30px;
+  margin: 20px;
+}
+.resume-title {
+  font-family: "Special Elite", cursive;
+}
+.skills-title {
+  font-family: "Special Elite", cursive;
+}
+.skills-content {
+  font-family: "Tangerine", cursive;
+  font-size: 25px;
+}
+.projects-title {
+  font-family: "Special Elite", cursive;
+}
+.projects-content {
+  font-family: "Tangerine", cursive;
+  font-size: 25px;
+}
+.education-title {
+  font-family: "Special Elite", cursive;
+}
+.education-content {
+  font-family: "Tangerine", cursive;
+  font-size: 25px;
+}
+.experience-title {
+  font-family: "Special Elite", cursive;
+}
+.experience-content {
+  font-family: "Tangerine", cursive;
+  font-size: 25px;
 }
 
 .footer-container {
