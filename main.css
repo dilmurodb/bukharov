@@ -1,18 +1,68 @@
-html {
-  scroll-behavior: smooth;
+@media screen and (max-width: 900px) {
+  div.main-item-about {
+    align-self: center;
+    width: 260px;
+    height: 800;
+    background-color: lightskyblue;
+    font-size: 13px;
+  }
+  div.parallax {
+    background-image: url("./me.jpg");
+    background-size: 100%;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  p.intro-text {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  div.main-item-portfolio-top {
+    display: none;
+  }
+  div.main-item-portfolio {
+    width: 260px;
+    height: 500px;
+    margin: 0px;
+  }
+  div.trivia {
+    margin: 5px;
+  }
+  div.trivia-title {
+    font-family: "Oswald";
+    font-size: 15px;
+  }
+  div.tic-tac-toe {
+    margin: 5px;
+  }
+  div.tic-tac-toe-title {
+    font-family: "Oswald";
+    font-size: 15px;
+  }
+  div.todo-list {
+    margin: 5px;
+  }
+  div.todo-list-title {
+    font-family: "Oswald";
+    font-size: 15px;
+  }
+  div.main-item-portfolio-bottom {
+    display: flex;
+    flex-direction: column;
+  }
 }
 a {
   text-decoration: none;
   color: white;
 }
-
 .intro-container {
   display: flex;
   justify-content: start;
   margin-left: 20px;
 }
 
-.intro-content {
+.intro-text {
   font-family: "Covered By Your Grace", cursive;
   font-size: 40px;
   margin: 0px 0px;
@@ -21,85 +71,25 @@ a {
 .parallax {
   background-image: url("./me.jpg");
   background-size: 67%;
-  min-height: 590px;
+  min-height: 615px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.header-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-  height: 100px;
-  background-color: black;
-  margin-bottom: 20px;
-}
-
-.header-title {
-  font-family: "Bebas Neue", cursive;
-  font-size: 30px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.header-container-left {
-  display: flex;
-  justify-content: start;
-  width: 50%;
-}
-
-.header-name-text {
-  font-family: "Rock Salt", cursive;
-  font-size: 20px;
-}
-
-.header-container-right {
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
-}
-.header-item {
-  height: 30px;
-  width: 60px;
-  color: white;
-}
-.header-item-name {
-  height: 30px;
-  width: 60px;
-  color: white;
-  margin-left: 100px;
-}
-
 .main-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 2200px;
+  height: 1200px;
 }
-
 .main-item-about {
-  height: 520px;
-  width: 900px;
-  background-color: lightskyblue;
   align-self: center;
-  margin: 10px;
-  padding: 5px;
-}
-.about-me-title {
-  font-family: "Dancing Script", cursive;
+  width: 900px;
+  height: 600;
+  background-color: lightskyblue;
+  padding: 15px;
   font-size: 25px;
-  display: flex;
-  justify-content: center;
-}
-.about-me-content {
-  font-family: "Dancing Script", cursive;
-  font-size: 25px;
+  margin-top: 40px;
 }
 .main-item-portfolio {
   height: 300px;
@@ -109,15 +99,15 @@ a {
   background-color: lightskyblue;
   align-self: center;
   flex-direction: column;
-  margin: 10px;
-  padding: 5px;
+  padding: 15px;
+  margin-top: 40px;
 }
 .main-item-portfolio-top {
   display: flex;
   justify-content: center;
-  font-size: 25px;
+  font-size: 35px;
   height: 20px;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Oswald";
 }
 .main-item-portfolio-bottom {
   display: flex;
@@ -130,7 +120,8 @@ a {
   align-self: center;
 }
 .trivia-title {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Oswald";
+  font-size: 20px;
 }
 
 .tic-tac-toe {
@@ -138,7 +129,8 @@ a {
   align-self: center;
 }
 .tic-tac-toe-title {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Oswald";
+  font-size: 20px;
 }
 
 .todo-list {
@@ -146,48 +138,7 @@ a {
   align-self: center;
 }
 .todo-list-title {
-  font-family: "Permanent Marker", cursive;
-}
-
-.main-item-resume {
-  height: 1100px;
-  width: 900px;
-  background-color: lightskyblue;
-  align-self: center;
-  margin: 10px;
-  padding: 5px;
-}
-.resume-title {
-  font-family: "Special Elite", cursive;
-  display: flex;
-  justify-content: center;
-}
-.skills-title {
-  font-family: "Special Elite", cursive;
-}
-.skills-content {
-  font-family: "Titillium Web", sans-serif;
-  font-size: 20px;
-}
-.projects-title {
-  font-family: "Special Elite", cursive;
-}
-.projects-content {
-  font-family: "Titillium Web", sans-serif;
-  font-size: 15px;
-}
-.education-title {
-  font-family: "Special Elite", cursive;
-}
-.education-content {
-  font-family: "Titillium Web", sans-serif;
-  font-size: 20px;
-}
-.experience-title {
-  font-family: "Special Elite", cursive;
-}
-.experience-content {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Oswald";
   font-size: 20px;
 }
 

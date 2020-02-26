@@ -5,155 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Bebas+Neue|Covered+By+Your+Grace|Rock+Salt&display=swap"
+      href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Oswald|Rock+Salt&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Dancing+Script|Permanent+Marker|Special+Elite|Titillium+Web&display=swap"
       rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
-    <script
-      src="https://kit.fontawesome.com/9360678807.js"
-      crossorigin="anonymous"
-    ></script>
     <link href="main.css" rel="stylesheet" />
   </head>
   <body>
     <div class="intro-container">
       <div class="intro-item">
-        <p class="intro-content">Hi, I am Dilmurod Bukharov</p>
-        <p class="intro-content">Software Developer and a Traveler</p>
+        <p class="intro-text">Hi, I am Dilmurod Bukharov</p>
+        <p class="intro-text">Software Developer and a Traveler</p>
       </div>
     </div>
     <div class="parallax"></div>
-    <header>
-      <div class="header-container" id="nav-header">
-        <div class="header-container-left">
-          <div class="header-item-name">
-            <p class="header-name-text">D.Bukharov</p>
-          </div>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">D.Bukharov</a>
         </div>
-        <div class="header-container-right">
-          <div class="header-item">
-            <a href="#about"><p class="header-title">About</p></a>
-          </div>
-          <div class="header-item">
-            <a href="#portfolio"><p class="header-title">Portfolio</p></a>
-          </div>
-          <div class="header-item">
-            <a href="#resume"><p class="header-title">Resume</p></a>
-          </div>
-          <div class="header-item"><p class="header-title">Contact</p></div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">ABOUT</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                >PORTFOLIO<span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="https://dilmurodb.github.io/trivia/" target="_blank"
+                    >TRIVIA</a
+                  >
+                </li>
+                <li>
+                  <a href="https://dilmurodb.github.io/tic-tac/" target="_blank"
+                    >TIC-TAC-TOE</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://bukharov-todo-list.herokuapp.com/"
+                    target="_blank"
+                    >ToDo-List</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li id="resume"><a href="#">RESUME</a></li>
+            <li><a href="#">CONTACTS</a></li>
+          </ul>
         </div>
       </div>
-    </header>
+    </nav>
     <main>
       <div class="main-container">
-        <div class="main-item-about" id="about">
-          <div class="about-me-title"><h1>About me</h1></div>
-          <p class="about-me-content">
-            Hello, my name is Dilmurod Bukharov, I moved to the United States in
-            the Summer of 2018 and since then I fell in love with this beautiful
-            country and great people. I graduated Moscow State University of
-            Steel and Alloys in Moscow, Russia and have both Bachelor’s and
-            Master’s degree in metallurgical engineering. I am an intellectually
-            curious person and love spending most of my spare time surfing the
-            Internet and learning new things. I was always fascinated by web
-            technologies and how it works but never really had a chance to learn
-            it thoroughly. After I moved to the United States, I decided to
-            change my career path and learn Software Development. I knew that
-            changing my career would be challenging but I also was sure that it
-            would be extremely rewarding. Finally, when I found out about
-            General Assembly, I decided to enroll to one of their Software
-            Engineering Immersive cohorts. So far, my journey into web
-            development has been great and very interesting, I gained so much
-            experience by working on real client projects and my own individual
-            work.
-          </p>
-        </div>
-        <div class="main-item-resume" id="resume">
-          <div class="resume-title"><h1>RESUME</h1></div>
-          <div class="resume-skills">
-            <div class="skills-title"><h2>Skills</h2></div>
-            <div class="skills-content">
-              <p>
-                JavaScript | React | MongoDB | Express | Node | Mongoose |
-                PostgreSQL | HTML | CSS | PeeWee | SQL | Python | Scribble |
-                Django REST | Gatsby | GraphQL | Django
-              </p>
-            </div>
-          </div>
-          <div class="resume-projects">
-            <div class="projects-title"><h2>Relevant Projects</h2></div>
-            <div class="projects-name"><h3>To Do List</h3></div>
-            <div class="projects-content">
-              <p>
-                To Do List is the app where a user can create todo lists, check
-                them as completed or uncheck, also a user can delete any item
-                from the list. This app was created by using React
-              </p>
-            </div>
-            <div class="projects-name"><h3>Modern Trouseau</h3></div>
-            <div class="projects-content">
-              <p>
-                Collaborated with the team of 15 students to create a website
-                for the client project. I was on the front-end team and we
-                worked on React using Gatsby. The project was broken up into
-                smaller components and every member of the team worked on those
-                components. Technologies: React Gatsby, Django REST.
-              </p>
-            </div>
-            <div class="projects-name"><h3>National Parks</h3></div>
-            <div class="projects-content">
-              <p>
-                National Parks website project was my solo project. I created
-                both front-end and back-end code. Website has a list of National
-                Parks with its description, location and photos. User can add to
-                this list any number of National Parks, or delete them, also
-                users can leave a message on each park. Technologies: Django,
-                PSQL.
-              </p>
-            </div>
-          </div>
-          <div class="resume-education">
-            <div class="education-title"><h2>Education</h2></div>
-            <div class="education-content">
-              <p>
-                General Assembly, Washington, DC (2020) Web Development
-                Immersive 12-­week intensive course
-              </p>
-              <p>
-                Westminster International University in Tashkent, Tashkent
-                (2018) One year: Economics.
-              </p>
-              <p>
-                Moscow State University of Steel and Alloys, Moscow, Russia
-                (2013) M.S: Metallurgical Engineering.
-              </p>
-              <p>
-                Moscow State University of Steel and Alloys, Moscow, Russia
-                (2011) B.Sc: Metallurgical Engineering.
-              </p>
-            </div>
-          </div>
-          <div class="resume-experience">
-            <div class="experience-title"><h2>Experience</h2></div>
-            <div class="experience-content">
-              <p>
-                General Assembly, Washington, DC (2020) Web Development
-                Immersive, 11/2019 - present
-              </p>
-              <p>
-                UCSUR University of Pittsburgh, Pittsburgh, PA Data Collector,
-                3/2019 – 10/2019
-              </p>
-              <p>
-                Tashkent Railway Engineering Institute, Assistant Teacher,
-                09/2013 – 08/2016
-              </p>
-            </div>
-          </div>
-        </div>
         <div class="main-item-portfolio" id="portfolio">
           <div class="main-item-portfolio-top">
             <div class="portfolio-title"><p>PORTFOLIO</p></div>
@@ -187,6 +105,26 @@
             </div>
           </div>
         </div>
+        <div class="main-item-about" id="about">
+          <div class="about-me-title"><h1>About me</h1></div>
+          <p class="about-me-content">
+            Hello, I moved to the United States in the Summer of 2018 and since
+            then I fell in love with this beautiful country and great people. I
+            graduated Moscow State University of Steel and Alloys in Moscow,
+            Russia and have both Bachelor’s and Master’s degree in metallurgical
+            engineering. I am intellectually curious and love spending my spare
+            time surfing the Internet and learning new things. I was always
+            fascinated by web technologies and how it works but never really had
+            a chance to learn it thoroughly. After I moved to the United States,
+            I decided to change my career path and learn Software Development. I
+            knew that changing my career would be challenging but I also was
+            sure that it would be extremely rewarding. Finally, when I found out
+            about General Assembly, I decided to enroll to one of their Software
+            Engineering Immersive cohorts. So far, my journey into web
+            development has been great, I gained so much experience by working
+            on real client projects and my own individual work.
+          </p>
+        </div>
       </div>
     </main>
     <footer>
@@ -215,6 +153,12 @@
         </div>
       </div>
     </footer>
+    <script
+      src="https://kit.fontawesome.com/9360678807.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </body>
 </html>
