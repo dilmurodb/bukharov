@@ -115,6 +115,25 @@
   div.download-resume-link {
     margin-top: 8px;
   }
+  div.main-item-contacts {
+    height: 500px;
+    width: 300px;
+    background-color: lightskyblue;
+    align-self: center;
+    margin: 10px;
+    margin-top: 40px;
+    padding: 15px;
+  }
+  div.email-content {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+  }
+  div.phone-content {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+  }
 }
 a {
   text-decoration: none;
@@ -276,4 +295,31 @@ a {
 .download-resume-title {
   margin-top: 15px;
   margin-right: 20px;
+}
+.main-item-contacts {
+  height: 500px;
+  width: 900px;
+  background-color: lightskyblue;
+  align-self: center;
+  margin: 10px;
+  margin-top: 40px;
+  padding: 15px;
+}
+.contacts-title {
+  display: flex;
+  justify-content: center;
+}
+.email-content {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.phone-content {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.linkedin-link {
+  display: flex;
+  justify-content: center;
 }
