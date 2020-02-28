@@ -7,7 +7,7 @@
     font-size: 13px;
   }
   div.parallax {
-    background-image: url("./me.jpg");
+    background-image: url("photo.jpg");
     background-size: 100%;
     min-height: 300px;
     background-attachment: fixed;
@@ -152,7 +152,7 @@ a {
 }
 
 .parallax {
-  background-image: url("./me.jpg");
+  background-image: url("photo.jpg");
   background-size: 67%;
   min-height: 615px;
   background-attachment: fixed;
